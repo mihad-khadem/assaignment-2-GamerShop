@@ -97,7 +97,82 @@ display: flex;
 }
 .buttons{
   margin-top: 1.5rem;  
+  cursor: pointer;
 }
 .banner-img{
 
+}
+
+.gamer{
+    display: flex;
+}
+.gamer-text{
+    text-align: end;
+    margin-right: 170px;
+    margin-top: 100px;
+}
+.gamer-title{
+    text-align: right;
+    font-size: 45px;
+    font-weight: 700;
+    color: #F948B2;
+}
+.gamer-des{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top:0.8rem ;
+
+}
+.gamer-btn{
+    background-color: #FF42A5;
+    color: #FFF;
+    font-size: 1rem;
+    padding: 21px 40px;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 48px;
+    margin-top: 1.2rem;
+}
+.gamer-last-des{
+    font-size: 24px;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 10px;
+}
+.gamer-last-title{
+    color: #534C64;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.video-title{
+    text-align: center;
+    margin-top:1rem ;
+}
+.video-des{
+    color: #3C354F;
+    text-align: center;
+    margin-top: 0.7rem;
+
+}
+.videos-container{
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+.videos-container, img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   margin-top: 0.8rem;
+}
+
+.video-contant:hover{
+    border: 3px solid #534C64;
+    border-radius: 5px;
+    
 }
