@@ -176,3 +176,89 @@ display: flex;
     border-radius: 5px;
     
 }
+
+.play-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    margin: 100px;
+    gap: 10rem;
+}
+.play-img-container{
+    width: 600px;
+    display: flex
+}
+
+
+.play-image{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    top: 380px;
+    right: 500px;
+    
+
+}
+footer{
+    background-color:#0B0223;
+    height: 400px;
+    color: #FFF;
+    padding-top: 50px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.footer-logo-img{
+    width: 86px;
+    height: 40px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.menu-text{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+    cursor: pointer;
+    
+}
+.policy{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    gap: 25px;
+    cursor: pointer;
+    color: #534C64;
+
+
+}
+.footer-des{
+    text-align: center;
+    margin-top: 35px;
+    color: #3C354F;
+}
+
+@media screen and (max-width:"576px"){
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+}
